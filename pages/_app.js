@@ -1,5 +1,6 @@
 import { MoralisProvider } from 'react-moralis';
 import '../styles/globals.css';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
 function MyApp({ Component, pageProps }) {
   return (

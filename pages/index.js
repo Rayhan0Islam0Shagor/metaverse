@@ -18,7 +18,7 @@ export default function Home() {
     );
 
   return (
-    <div className="h-screen">
+    <div className="h-screen scrollbar-hide bg-gradient-to-b from-black to-fuchsia-900 overflow-hidden">
       <Head>
         <title>METAVERSE</title>
         <link rel="icon" href="/meta-interactive.png" />

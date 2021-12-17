@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useMoralis } from 'react-moralis';
 
 const Login = () => {
-  const { authenticate, isAuthenticated, user } = useMoralis();
+  const { authenticate } = useMoralis();
 
   return (
     <div className="bg-black relative text-white">
